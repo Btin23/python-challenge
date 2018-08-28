@@ -1,11 +1,11 @@
 import csv
 import os
 
-# Files to load and output (Remember to change these)
+#  load and output 
 file_to_load = os.path.join("budget_data.csv")
 file_to_output = os.path.join("budget_analysis.txt")
 
-# Track various financial parameters
+#  financial terms
 total_months = 0
 month_of_change = []
 net_change_list = []
